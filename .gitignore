@@ -1,0 +1,52 @@
+# Environment variables (Crucial for FastAPI security)
+.env
+.env.*
+!.env.example
+
+# Python cache and byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Package managers and locks (Uncomment if you want to exclude locks, but keeping them is recommended)
+# poetry.lock
+# pdm.lock
+# pip-log.txt
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Database (if using local SQLite for development)
+*.sqlite3
+*.db
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+.env
+.env.*
+!.env.example
