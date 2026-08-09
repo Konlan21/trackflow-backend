@@ -19,13 +19,13 @@ class Settings(BaseSettings):
 
     SECRET_KEY: str = "change-me-in-production"
     ALGORITHM: str = "HS256"
-    ACCESS_TOKEN_EXPIRE_MINUTES: int = 120   # Django: timedelta(hours=2)
-    REFRESH_TOKEN_EXPIRE_MINUTES: int = 180  # Django: timedelta(hours=3)
+    ACCESS_TOKEN_EXPIRE_MINUTES: int = 120
+    REFRESH_TOKEN_EXPIRE_MINUTES: int = 180
 
     DATABASE_URL: str = "sqlite+aiosqlite:///./db.sqlite3"
 
     CORS_ALLOW_ALL_ORIGINS: bool = True
-    CORS_ALLOWED_ORIGINS: list[str] = ["https://gettrackflow-ai.vercel.app/"]
+    CORS_ALLOWED_ORIGINS: list[str] = []
 
     GEMINI_API_KEY: str | None = None
 
