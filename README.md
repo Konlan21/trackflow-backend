@@ -2,8 +2,7 @@
 
 An AI-powered personal finance tracker backend built with FastAPI. Tracks income, expenses, budgets, and goals, and includes a Gemini-powered AI assistant that reasons over a user's live financial data to answer questions and surface insights.
 
-**Live API:** https://trackflow-backend-483d.onrender.com
-**Frontend repo:** [link to your frontend repo]
+**Live API:** https://trackflow-backend-483d.onrender.com/docs
 **Live app:** https://gettrackflow-ai.vercel.app
 
 ## Features
@@ -37,8 +36,8 @@ An AI-powered personal finance tracker backend built with FastAPI. Tracks income
 
 ```bash
 # Clone the repo
-git clone https://github.com/Konlan21/<backend-repo-name>.git
-cd <backend-repo-name>
+git clone https://github.com/Konlan21/trackflow.git
+cd trackflow
 
 # Create a virtual environment
 python -m venv env
